@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitService.UnitTests", "Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitService.IntegrationTests", "UnitService.IntegrationTests\UnitService.IntegrationTests.csproj", "{8C7D54D2-8BB4-4736-81C7-629DE78C11BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitService.TestClient", "UnitService.TestClient\UnitService.TestClient.csproj", "{F197C240-58DC-4217-B756-E880D0CE65E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{8C7D54D2-8BB4-4736-81C7-629DE78C11BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7D54D2-8BB4-4736-81C7-629DE78C11BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7D54D2-8BB4-4736-81C7-629DE78C11BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F197C240-58DC-4217-B756-E880D0CE65E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F197C240-58DC-4217-B756-E880D0CE65E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F197C240-58DC-4217-B756-E880D0CE65E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F197C240-58DC-4217-B756-E880D0CE65E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

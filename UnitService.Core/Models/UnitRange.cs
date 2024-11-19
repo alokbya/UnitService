@@ -23,6 +23,8 @@ public record UnitRange
     public bool IsInRange(double value) => value >= Minimum && value <= Maximum;
 }
 
+// Why was double.MaxValue used? Absolute hot is a theoretical upper limit of temperature which is much, much greater than the temperature of the sun's core: https://www.pbs.org/wgbh/nova/zero/scale.html  
+// https://www.pbs.org/wgbh/nova/zero/hot.html
 public static class TemperatureRanges
 {
     public static readonly UnitRange Celsius = new(
