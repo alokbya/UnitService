@@ -18,8 +18,8 @@ def test_single_conversion():
         response = requests.get(f"{BASE_URL}/convert", params=params)
         if response.status_code == 200:
             result = response.json()
-            print(f"Converted {result['originalValue']}{result['originalUnit']} "
-                  f"to {result['convertedValue']}{result['targetUnit']}")
+            print(f"Converted {result['originalValue']} {result['originalUnit']} "
+                  f"to {result['convertedValue']} {result['targetUnit']}")
         else:
             print(f"Error: {response.status_code}")
             print(response.text)
@@ -48,8 +48,8 @@ def test_bulk_conversion():
         if response.status_code == 200:
             results = response.json()
             for result in results:
-                print(f"Converted {result['originalValue']}{result['originalUnit']} "
-                      f"to {result['convertedValue']}{result['targetUnit']}")
+                print(f"Converted {result['originalValue']} {result['originalUnit']} "
+                      f"to {result['convertedValue']} {result['targetUnit']}")
         else:
             print(f"Error: {response.status_code}")
             print(response.text)
