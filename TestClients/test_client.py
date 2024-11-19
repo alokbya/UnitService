@@ -10,8 +10,8 @@ def test_single_conversion():
     # Parameters for the conversion
     params = {
         'value': 32,
-        'fromUnit': 'f',
-        'toUnit': 'c'
+        'fromUnit': 'c',
+        'toUnit': 'f'
     }
     
     try:
